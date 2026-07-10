@@ -43,3 +43,14 @@ Create a Pages project from the Git repository with these settings:
 - Build output directory: `.`
 
 Cloudflare Pages will publish the repository root directly.
+
+## Custom Domain Later
+
+The production site currently uses its Cloudflare `pages.dev` address. When DNS access to `joeysitalianrestaurant.com` is available:
+
+1. Add `joeysitalianrestaurant.com` as a Cloudflare zone in the same account as the Pages project.
+2. Update the domain's nameservers at the registrar to the nameservers Cloudflare provides.
+3. Open the Pages project in Cloudflare and select **Custom domains > Set up a custom domain**.
+4. Enter `joeysitalianrestaurant.com` and complete the activation check.
+
+Cloudflare will create the required apex-domain DNS record and provision HTTPS. The existing `pages.dev` address remains available during the transition.
