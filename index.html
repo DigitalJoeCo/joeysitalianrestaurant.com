@@ -46,13 +46,6 @@
       <div class="primary-bar">
         <div class="container site-header__inner">
           <a class="site-brand" href="./" aria-label="Joey's Classic Italian Dining home">
-            <img
-              src="assets/logos/joeys-logo-light.png"
-              width="586"
-              height="638"
-              decoding="async"
-              alt=""
-            >
             <span>Joey's</span>
           </a>
 
@@ -98,9 +91,6 @@
               alt="Joey's Classic Italian Dining"
             >
             <h1 id="hero-title">Italian dining, rooted in tradition.</h1>
-            <p class="hero__intro">
-              Classic Italian-American cooking, made from scratch and served with genuine hospitality.
-            </p>
             <div class="hero__actions">
               <a class="button button--ochre" href="https://reserve.spoton.com/restaurant/73719">
                 Reserve a table
@@ -119,7 +109,6 @@
             fetchpriority="high"
             alt="Joey's circular dining room and landscaped patio at sunset"
           >
-          <figcaption>6594 Thompson Road, Syracuse, New York</figcaption>
         </figure>
       </section>
 
@@ -158,7 +147,17 @@
         <div class="container story__layout">
           <div class="story__heading">
             <p class="section-kicker">This is our story</p>
-            <h2 id="story-title">About Joey's</h2>
+            <h2 id="story-title">
+              <span class="visually-hidden">About Joey's</span>
+              <img
+                src="assets/titles/about-joeys.png"
+                width="818"
+                height="224"
+                loading="lazy"
+                decoding="async"
+                alt=""
+              >
+            </h2>
             <p class="story__year" aria-hidden="true">1982</p>
           </div>
 
@@ -190,7 +189,17 @@
         <div class="container location-hours__layout">
           <div class="location-hours__address">
             <p class="section-kicker section-kicker--light">Visit Joey's</p>
-            <h2 id="hours-heading">Location &amp; Hours</h2>
+            <h2 id="hours-heading">
+              <span class="visually-hidden">Location &amp; Hours</span>
+              <img
+                src="assets/titles/location-hours.png"
+                width="978"
+                height="174"
+                loading="lazy"
+                decoding="async"
+                alt=""
+              >
+            </h2>
             <address>
               <a
                 href="https://www.google.com/maps/dir/?api=1&amp;destination=6594+Thompson+Road%2C+Syracuse%2C+NY+13206"
@@ -212,7 +221,6 @@
           </div>
 
           <div class="location-hours__schedule">
-            <h3>Weekly hours</h3>
             <ul class="hours-list">
               <li>
                 <span class="hours-list__day">Monday-Thursday</span>
@@ -239,7 +247,17 @@
         <div class="container menus__layout">
           <div class="menus__heading">
             <p class="section-kicker">Made from scratch</p>
-            <h2 id="menus-heading">Our Menus</h2>
+            <h2 id="menus-heading">
+              <span class="visually-hidden">Our Menus</span>
+              <img
+                src="assets/titles/our-menus.png"
+                width="925"
+                height="213"
+                loading="lazy"
+                decoding="async"
+                alt=""
+              >
+            </h2>
           </div>
           <p class="menus__intro">
             Explore Joey's classic Italian-American dishes for lunch and dinner.
@@ -272,10 +290,10 @@
       <section class="editorial-gallery" aria-labelledby="gallery-heading">
         <div class="container editorial-gallery__heading">
           <p class="section-kicker">Gather around the table</p>
-          <h2 id="gallery-heading">An Evening at Joey's</h2>
-          <p>
-            A warm room, a generous table, and the timeless pleasure of dining together.
-          </p>
+          <div class="editorial-gallery__title">
+            <h2 id="gallery-heading">An Evening at Joey's</h2>
+            <p>A warm room, a generous table, and the timeless pleasure of dining together.</p>
+          </div>
         </div>
 
         <div class="editorial-gallery__grid">
@@ -365,7 +383,10 @@
             decoding="async"
             alt="Joey's Classic Italian Dining"
           >
-          <p class="footer__kicker">We look forward to welcoming you</p>
+          <p class="footer__welcome">
+            <span>We look forward</span>
+            <span>to welcoming you</span>
+          </p>
           <h2 id="contact-heading">Contact Joey's</h2>
           <address class="footer__contact">
             <a href="tel:+13154320315">315-432-0315</a>
@@ -376,6 +397,7 @@
             >
               6594 Thompson Road<br>
               Syracuse, NY 13206
+              <span class="footer__directions-label">Open in Google Maps</span>
               <span class="visually-hidden">(opens directions in a new tab)</span>
             </a>
           </address>
