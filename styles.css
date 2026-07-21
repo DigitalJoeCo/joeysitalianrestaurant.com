@@ -883,25 +883,15 @@ main:focus {
 .editorial-gallery__heading {
   position: relative;
   z-index: 2;
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(18rem, 0.55fr);
-  align-items: end;
-  gap: 1.5rem 4rem;
   margin-block-end: clamp(3.5rem, 7vw, 6.5rem);
 }
 
 .editorial-gallery__heading .section-kicker {
-  grid-column: 2;
-  grid-row: 1;
-  align-self: end;
   margin: 0;
-  padding-block-end: 0.45rem;
 }
 
 .editorial-gallery__title {
   display: grid;
-  grid-column: 1;
-  grid-row: 1;
   gap: 1.25rem;
 }
 
@@ -955,8 +945,8 @@ main:focus {
 
 .gallery-frame--bust {
   z-index: 5;
-  grid-column: 6 / 10;
-  grid-row: 2 / 9;
+  grid-column: 9 / 13;
+  grid-row: 1 / 8;
   overflow: visible;
   background: transparent;
   border: 0;
@@ -1328,7 +1318,6 @@ main:focus {
 
   .location-hours__layout,
   .menus__layout,
-  .editorial-gallery__heading,
   .footer__layout {
     grid-template-columns: 1fr;
   }
@@ -1347,23 +1336,6 @@ main:focus {
 
   .menus__intro {
     max-width: 34rem;
-  }
-
-  .editorial-gallery__heading {
-    align-items: start;
-    gap: 1.5rem;
-  }
-
-  .editorial-gallery__heading .section-kicker {
-    grid-column: auto;
-    grid-row: auto;
-    margin-block-end: 0;
-    padding-block-end: 0;
-  }
-
-  .editorial-gallery__title {
-    grid-column: auto;
-    grid-row: auto;
   }
 
   .editorial-gallery__grid {
