@@ -945,8 +945,8 @@ main:focus {
 
 .gallery-frame--bust {
   z-index: 5;
-  grid-column: 9 / 13;
-  grid-row: 1 / 8;
+  grid-column: 8 / 13;
+  grid-row: 1 / 5;
   overflow: visible;
   background: transparent;
   border: 0;
@@ -962,7 +962,7 @@ main:focus {
 .gallery-frame--tortellini {
   z-index: 1;
   grid-column: 8 / 13;
-  grid-row: 4 / 11;
+  grid-row: 5 / 12;
 }
 
 .gallery-frame--rigatoni {
@@ -980,7 +980,7 @@ main:focus {
 .gallery-frame--seafood {
   z-index: 4;
   grid-column: 8 / 13;
-  grid-row: 10 / 17;
+  grid-row: 11 / 18;
 }
 
 .gallery-frame--piccata {
